@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  font-family: "Montserrat", sans-serif;
+  color:#FFDFD6;
+  font-weight: 300;
+  font-style: normal;
+  background: radial-gradient(circle, rgba(226,99,168,1) 23%, rgba(182,146,194,1) 100%);
+  height:100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+}
+.container{
+    max-width: 80%;
+    width:400px;
+    height: 600px;
+    margin: 0 auto;
+    padding:40px;
+}
+.encabezado{
+    padding: 10px 0 5px 0;
+}
+.agregar{
+    background-color:#E3A5C7;
+    border-radius:15px;
+    height:70px;
+    display:flex;
+    align-items: center;
+    padding:10px;
+    gap:70px;
+}
+.agregar input{
+    height: 100%;
+    width:100%;
+    border: none;
+    border-radius: 8px;
+    background-color:#EECEB9;
+    padding-left: 10px;
+}
+.agregar input::placeholder{
+    font-size: 1.1rem;
+    color:#987D9A;
+
+}
+.agregar i{
+    font-size: 40px;
+    color:#EECEB9;
+
+}
+.agregar i:hover{
+    transform:scale(1.1);
+    cursor:pointer;
+}
+.tareas h2{
+    margin-bottom: 20px;
+    color:#E1AFD1;
+}
+.tareas li{
+    background-color:#EECEB9;
+    border-radius: 15px;
+    padding: 10px;
+    color:#987D9A;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.tareas{
+    font-size:20px;
+    
+}
+.tareas p{
+  font-weight: 500; 
+  font-size:25px;   
+}
+.tareas i:hover{
+    color:#49108B;
+    cursor:pointer;
+}
+.tachado{
+    text-decoration:line-through;
+    color:#49108B;;
+}
